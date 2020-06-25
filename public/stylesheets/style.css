@@ -1,0 +1,75 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+main{
+  margin-top: 5uw;
+  border-color: white;
+  border: 5px;
+}
+
+h1 {
+  font-size: 16pt;
+  
+}
+h2 {
+  font-size: 14pt;
+}
+h3{
+  font-size: 12pt;
+}
+
+.container{
+  padding: 5px;
+  background-color: #f8f9fa;
+  
+}
+
+
+.encabezado{
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  
+}
+.columnaEncabezado{
+  border:3px;
+  border-color: white;
+  margin-top: 20px;
+}
+.logo {
+padding=4px;
+}
+
+.calibracion{
+  margin-top: 20px;
+}
+
+.datosCalibracion{
+
+}
+
+.datosFinales{
+
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
